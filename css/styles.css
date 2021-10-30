@@ -1,0 +1,104 @@
+*{
+    box-sizing:border-box;
+    padding: 0;
+    margin:0;
+}
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+    line-height: 1.6;
+
+}
+ul{
+    list-style-type: none;
+}
+img{
+  width: 150px;
+  height: 150px;;
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+h1, h2{
+    font-weight: 300;
+    margin:10px 0;
+}
+
+/* navbar*/
+.navbar{
+    background-color: lightblue;
+    color:white;
+    height:70px;
+    
+}
+
+.navbar ul{
+    display: flex;
+  
+}
+
+.navbar a{
+    color: white;
+    padding:10px;
+    margin:0 5px;
+    
+}
+.navbar .flex{
+    justify-content: space-between;
+    overflow:hidden;
+}
+
+.navbar a:hover{
+    border-bottom: white 2px solid;
+}
+.jasonimg{
+    float:right;
+}
+.luffyimg{
+    float:left;
+}
+.contenttwo{
+    float:right;
+}
+.contentone{
+    float:left;
+}
+
+
+
+.container{
+    max-width:1100px;
+    margin:0 auto;
+    padding:0 40px;
+    overflow: auto;
+}
+.flex{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+}
+/*
+.grid{
+    display: grid;
+    grid-template-rows: 200px 200px;
+    grid-template-areas:
+    "luffy content-one"
+    "content-two jason" ;
+    gap:2px;
+}
+.luffyimg{
+    grid-area:luffy;
+}
+.content-one{
+    grid-area:content-one;
+}
+.jasonimg{
+    grid-area:jason;
+}
+.content-two{
+    grid-area:content-two;
+}
+*/
